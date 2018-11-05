@@ -1,6 +1,6 @@
-#define RED_COEFFICIENT 0.30f
-#define GREEN_COEFFICIENT 0.59f
-#define BLUE_COEFFICIENT 0.11f
+#define RED_COEFFICIENT 0.2126f
+#define GREEN_COEFFICIENT 0.7152f
+#define BLUE_COEFFICIENT 0.0722f
 
 inline unsigned char encode_gamma(float f) {
 	return pow(f, 0.4545f) * 255;
