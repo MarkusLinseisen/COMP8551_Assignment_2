@@ -1,7 +1,6 @@
 #include <chrono>
 #include <fstream>
 #include <iostream>
-#include <math.h>
 #include <stdlib.h>
 
 #include "CL/cl.hpp"
@@ -9,6 +8,8 @@
 #include "stb_image.h"
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image_write.h"
+
+#include "serially.h"
 
 using namespace std;
 
